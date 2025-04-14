@@ -19,7 +19,6 @@ router.get('/', async (req: Request, res: Response) => {
         lat,
         lon,
         exclude: 'minutely,alerts', // customize as needed
-        units: 'imperial',
         appid: API_KEY
       }
     });
